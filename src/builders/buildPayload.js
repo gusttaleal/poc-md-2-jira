@@ -7,7 +7,7 @@ exports.buildPayload = function (parentKey, tasks) {
 
         const summary = tasks[index].slice(tasks[index].indexOf(CONSTANTS.TITLE_MARK) + CONSTANTS.TITLE_MARK.length).split("\n")[0];
 
-        const description = tasks[index].slice(tasks[index].indexOf(CONSTANTS.CONTEXT_MARK), tasks[index].length - 1)
+        const description = tasks[index].slice(tasks[index].indexOf(CONSTANTS.CONTEXT_MARK), tasks[index].length)
 
         const estimate = tasks[index].slice(tasks[index].indexOf(CONSTANTS.ESTIMATE_MARK)).split("\n")[1];
 
