@@ -1,0 +1,40 @@
+{
+  "name": "poc-md-2-jira",
+  "version": "1.0.0",
+  "description": "Proof of concept to create a management tool to post on Jira all developed wiki documentation.",
+  "main": "src/index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start":"node src/index.js",
+    "debug":"nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/gusttaleal/poc-md-2-jira.git"
+  },
+  "keywords": [
+    "Jira",
+    "Wiki",
+    "Documentation",
+    ".md",
+    "POC",
+    "Management",
+    "Tool"
+  ],
+  "author": "Gustavo Leal (lses.gustavo@gmail.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gusttaleal/poc-md-2-jira/issues"
+  },
+  "homepage": "https://github.com/gusttaleal/poc-md-2-jira#readme",
+  "dependencies": {
+    "axios": "^1.5.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
